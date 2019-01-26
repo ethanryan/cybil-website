@@ -99,7 +99,7 @@ body {
 }
 
 .background-image {
-  background: url(assets/building-blocks-of-love.jpg);
+  background: url(assets/building-blocks-of-love-smaller.jpg);
   width: 100%;
   height: 100%;
   /* background-attachment: fixed; */
@@ -228,6 +228,19 @@ body {
     /* font-size: 36px; */
   }
 
+  .background-image {
+    background: url(assets/building-blocks-of-love-smaller.jpg);
+    width: 100%;
+    height: 100%;
+    /* background-attachment: fixed; */
+    /* fixed will make it parallax effect */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: azure;
+    min-height: 620px;
+  }
+
   .bottom-center-text {
     bottom: 5%;
     font-size: 42px;
@@ -249,8 +262,21 @@ body {
     font-size: 42px;
   }
 
+  .background-image {
+    background: url(assets/building-blocks-of-love-smaller.jpg);
+    width: 100%;
+    height: 100%;
+    /* background-attachment: fixed; */
+    /* fixed will make it parallax effect */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: azure;
+    min-height: 400px;
+  }
+
   .subheader {
-    /* font-size: 30px; */
+    font-size: 20px;
   }
 
   .bottom-center-text {
