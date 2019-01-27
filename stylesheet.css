@@ -172,6 +172,47 @@ body {
 }
 /* for page 2 */
 
+/* for page 3 */
+.background-image-page-3 {
+  background: url(assets/red-pattern-random-falling-hearts.jpg);
+  width: 100%;
+  height: 100%;
+  /* background-attachment: fixed; */
+  /* fixed will make it parallax effect */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: azure;
+  min-height: 720px;
+  /* 720px is the height of the original image */
+}
+
+.page-3-header {
+  /* border: 3px solid red; */
+  margin-top: 10%;
+}
+
+.page-3-mainheader {
+  /* border: 2px solid green; */
+  font-size: 94px;
+  /* text-shadow: 2px 2px red; */
+  text-shadow: 2px 4px darkred;
+}
+
+@media screen and (max-width: 524px) {
+  .page-3-mainheader {
+    font-size: 54px !important;
+  }
+}
+
+.page-3-subheader {
+  /* border: 2px solid orange; */
+  font-size: 34px;
+  color: white;
+  text-shadow: 1px 2px darkred;
+}
+/* for page 3 */
+
 #myCarousel {
   background-color: lightgray;
   height: 400px;
