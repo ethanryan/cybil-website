@@ -159,16 +159,24 @@ body {
   /* border: 3px solid red; */
   margin-left: 25%;
   margin-top: 25%;
+  text-shadow: 2px 2px maroon;
 }
 
 .image-2-mainheader {
   /* border: 2px solid green; */
-  font-size: 64px;
+  font-size: 74px;
+}
+
+@media screen and (max-width: 524px) {
+  .image-2-mainheader {
+    font-size: 36px !important;
+  }
 }
 
 .image-2-subheader {
   /* border: 2px solid orange; */
   color: white;
+  text-shadow: 2px 2px purple;
 }
 /* for page 2 */
 
