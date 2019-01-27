@@ -162,6 +162,12 @@ body {
   text-shadow: 2px 2px maroon;
 }
 
+@media screen and (max-width: 524px) {
+  .new-image-header {
+    margin-top: 18%;
+  }
+}
+
 .new-image-mainheader {
   /* border: 2px solid green; */
   font-size: 74px;
