@@ -154,6 +154,24 @@ body {
   padding-bottom: 20px;
 }
 
+/* for page 2 */
+.image-2-header {
+  /* border: 3px solid red; */
+  margin-left: 25%;
+  margin-top: 25%;
+}
+
+.image-2-mainheader {
+  /* border: 2px solid green; */
+  font-size: 64px;
+}
+
+.image-2-subheader {
+  /* border: 2px solid orange; */
+  color: white;
+}
+/* for page 2 */
+
 #myCarousel {
   background-color: lightgray;
   height: 400px;
