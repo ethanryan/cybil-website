@@ -17,6 +17,16 @@ body {
   color: white;
 }
 
+.jumbotron {
+  /* background-color: lightblue; */
+  background-color: #69ffff;
+  /* above is baby blue */
+}
+
+.team-sport {
+  margin-top: 10%;
+}
+
 .shadow-text {
   text-shadow: 2px 2px 2px #aaa;
 }
@@ -160,6 +170,10 @@ body {
   margin-left: 25%;
   margin-top: 25%;
   text-shadow: 2px 2px maroon;
+}
+
+.profile-pic {
+  max-width: 300px;
 }
 
 @media screen and (max-width: 524px) {
