@@ -164,16 +164,21 @@ body {
   padding-bottom: 20px;
 }
 
+.profile-pic {
+  max-width: 300px;
+}
+@media screen and (max-width: 524px) {
+  .profile-pic {
+    max-width: 250px;
+  }
+}
+
 /* for new-image-header */
 .new-image-header {
   /* border: 3px solid red; */
   margin-left: 25%;
   margin-top: 25%;
   text-shadow: 2px 2px maroon;
-}
-
-.profile-pic {
-  max-width: 300px;
 }
 
 @media screen and (max-width: 524px) {
