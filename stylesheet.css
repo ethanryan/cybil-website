@@ -5,7 +5,8 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
   /* background: linear-gradient(to right, pink, purple, pink); */
-  background: linear-gradient(to right, white, purple, white);
+  /* background: linear-gradient(to right, white, purple, white); */
+  background: white;
 }
 
 #navbar {
@@ -18,9 +19,7 @@ body {
 }
 
 .jumbotron {
-  /* background-color: lightblue; */
-  background-color: #69ffff;
-  /* above is baby blue */
+  background-color: firebrick;
 }
 
 .team-sport {
