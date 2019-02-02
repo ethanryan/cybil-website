@@ -121,13 +121,40 @@ body {
   /* 720px is the height of the original image */
 }
 
-.top-center-text {
+/* for new-image-header */
+.new-image-header {
+  border: 3px solid red;
+  margin-top: 15%;
+  text-shadow: 2px 2px maroon;
   position: absolute;
   top: 3%;
-  left: 20%;
-  right: 20%;
-  font-size: 48px;
+  left: 25%;
+  right: 5%;
 }
+
+@media screen and (max-width: 524px) {
+  .new-image-header {
+    margin-top: 18%;
+  }
+}
+
+.new-image-mainheader {
+  /* border: 2px solid green; */
+  font-size: 94px;
+}
+
+@media screen and (max-width: 524px) {
+  .new-image-mainheader {
+    font-size: 36px !important;
+  }
+}
+
+.new-image-subheader {
+  /* border: 2px solid orange; */
+  color: white;
+  text-shadow: 2px 2px purple;
+}
+/* for new-image-header */
 
 .bottom-center-text {
   position: absolute;
@@ -171,38 +198,6 @@ body {
     max-width: 250px;
   }
 }
-
-/* for new-image-header */
-.new-image-header {
-  /* border: 3px solid red; */
-  margin-left: 25%;
-  margin-top: 25%;
-  text-shadow: 2px 2px maroon;
-}
-
-@media screen and (max-width: 524px) {
-  .new-image-header {
-    margin-top: 18%;
-  }
-}
-
-.new-image-mainheader {
-  /* border: 2px solid green; */
-  font-size: 74px;
-}
-
-@media screen and (max-width: 524px) {
-  .new-image-mainheader {
-    font-size: 36px !important;
-  }
-}
-
-.new-image-subheader {
-  /* border: 2px solid orange; */
-  color: white;
-  text-shadow: 2px 2px purple;
-}
-/* for new-image-header */
 
 #myCarousel {
   background-color: lightgray;
