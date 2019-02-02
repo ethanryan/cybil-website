@@ -242,6 +242,15 @@ body {
   padding: 30px 90px;
 }
 
+/* Smartphones (portrait and landscape) ----------- */
+/* @media screen and (max-width: 480px) { */
+@media screen and (max-width: 524px) {
+  .card-padding {
+    padding: 0;
+    padding-top: 15px;
+  }
+}
+
 .card-img-about-profile-pic {
   color: #fff;
   height: 100%;
