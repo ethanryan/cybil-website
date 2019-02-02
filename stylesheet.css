@@ -6,7 +6,8 @@ body {
   font-size: 18px;
   /* background: linear-gradient(to right, pink, purple, pink); */
   /* background: linear-gradient(to right, white, purple, white); */
-  background: white;
+  /* background: white; */
+  background: firebrick;
 }
 
 #navbar {
@@ -19,7 +20,8 @@ body {
 }
 
 .jumbotron {
-  background-color: firebrick;
+  /* background-color: firebrick; */
+  background-color: lightgray;
 }
 
 .shadow-text {
@@ -59,6 +61,7 @@ body {
 }
 
 .box-shadow {
+  border: none;
   box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);
 }
 
@@ -119,7 +122,7 @@ body {
 
 /* for new-image-header */
 .new-image-header {
-  border: 3px solid red;
+  /* border: 3px solid red; */
   margin-top: 15%;
   text-shadow: 2px 2px maroon;
   position: absolute;
@@ -129,7 +132,7 @@ body {
 }
 
 .team-sport-wrapper {
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   position: absolute;
   top: 85%;
   left: 5%;
@@ -236,7 +239,7 @@ body {
 }
 
 .card-padding {
-  padding: 20px;
+  padding: 30px 90px;
 }
 
 .card-img-about-profile-pic {
