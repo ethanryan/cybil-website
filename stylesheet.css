@@ -22,10 +22,6 @@ body {
   background-color: firebrick;
 }
 
-.team-sport {
-  margin-top: 10%;
-}
-
 .shadow-text {
   text-shadow: 2px 2px 2px #aaa;
 }
@@ -132,6 +128,14 @@ body {
   right: 5%;
 }
 
+.team-sport-wrapper {
+  border: 2px solid blue;
+  position: absolute;
+  top: 85%;
+  left: 5%;
+  right: 5%;
+}
+
 @media screen and (max-width: 524px) {
   .new-image-header {
     margin-top: 18%;
@@ -145,7 +149,7 @@ body {
 
 @media screen and (max-width: 524px) {
   .new-image-mainheader {
-    font-size: 36px !important;
+    font-size: 46px !important;
   }
 }
 
